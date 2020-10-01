@@ -31,7 +31,7 @@ def return_string_array (array)
   newArray = [] 
   while counter < array.length do   
     newArray << array[counter].to_s
-    count += 1 
+    counter += 1 
   end
   return newArray
 end
